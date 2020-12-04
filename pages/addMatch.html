@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ADD MATCH</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@1.0.0/dist/css/axentix.min.css">
+</head>
+
+<body class="layout">
+<header>
+    <nav class="navbar shadow-1 airforce dark-2">
+        <a href="../index.html" class="navbar-brand">NICOLAS LAFOND</a>
+    </nav>
+</header>
+
+<main>
+    <form id="addForm">
+        <div class="grix xs1 sm2">
+            <div class="form-field txt-center">
+                <label for="homeTeamInput">Domicile</label>
+                <input type="text" id="homeTeamInput" name="homeTeamInput" class="form-control rounded-1" placeholder="Equipe Domicile" required/>
+            </div>
+            <div class="form-field">
+                <label class="txt-center hide-xs" for="visitorTeamInput">Visiteur</label>
+                <input type="email" id="visitorTeamInput" name="visitorTeamInput" class="form-control rounded-1" placeholder="Equipe Visiteur" required/>
+            </div>
+            <div class="form-field txt-center">
+                <label for="homeScoreInput">Domicile SCORE</label>
+                <input type="number" id="homeScoreInput" name="homeScoreInput"  class="form-control rounded-1" placeholder="Equipe Domicile" required />
+            </div>
+            <div class="form-field txt-center">
+                <label for="visitorScoreInput">Visiteur SCORE</label>
+                <input type="number" id="visitorScoreInput" name="visitorScoreInput" class="form-control rounded-1" placeholder="Equipe Domicile" required />
+            </div>
+
+        </div>
+        <div class="grix xs3">
+            <div class="form-field txt-center pos-xs2">
+                <label for="dateInput">DATE</label>
+                <input type="date" id="dateInput" name="dateInput" class="form-control rounded-1" placeholder="Equipe Domicile" required />
+            </div>
+            <div class="pos-xs2">
+                <div class="btn rounded-1 airforce dark-2 press" id="addMatchButton">Ajouter un match</div>
+                <div class="btn rounded-1 airforce dark-2 press txt-center fx-right">Annuler</div>
+            </div>
+
+
+        </div>
+
+
+    </form>
+
+
+</main>
+
+<footer class="footer airforce dark-2">
+    Copyright © 2020 - Nicolas LAFOND
+</footer>
+<script type="module" src="../assets/js/addMatch.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

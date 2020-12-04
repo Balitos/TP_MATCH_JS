@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liste Match</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/axentix@1.0.0/dist/css/axentix.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="layout">
+<header>
+    <nav class="navbar shadow-1 airforce dark-2">
+        <a href="#" class="navbar-brand">NICOLAS LAFOND</a>
+    </nav>
+</header>
+
+<main>
+    <div class="grix xs1 sm1 gutter-xs1 container" id="wrapper">
+        <div class="card shadow-1 rounded-3">
+            <div class="card-content">
+                <div class="card-header center" id="DivPrincipal">
+                        <h3 class="txt-center" id="titre">Liste des matchs : </h3>
+                        <a href="pages/addMatch.html" id="buttonAdd"><button class="btn">Ajouter un match</button> </a>
+                    <br>
+                </div>
+                <div class="grix xs5 txt-center" id="contenerMatch">
+                    <div id="homeDiv">
+                        <strong>DOMICILE</strong>
+
+                    </div>
+                    <div id="scoreDiv">
+                        <strong>SCORE</strong>
+
+                    </div>
+                    <div id="visitorDiv">
+                        <strong> VISITEUR </strong>
+                    </div>
+                    <div id="dateDiv">
+                        <strong>DATE</strong>
+
+                    </div>
+
+                    <div id="buttonDiv">
+                        OPTION
+                     <div class="grix xs2 txt-center" id="buttonContainer">
+                        <div id="updateButtonDiv">
+
+                        </div>
+                        <div id="deleteButtonDiv">
+
+                        </div>
+                     </div>
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</main>
+
+<footer class="footer airforce dark-2">
+    Copyright © 2020 - NICOLAS LAFOND
+</footer>
+<script type="module" src="xmlRequest.js"></script>
+<script type="module" src="assets/js/showMatch.js"></script>
+</body>
+</html>
